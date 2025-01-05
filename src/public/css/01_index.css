@@ -1,0 +1,139 @@
+/* 全体のリセット */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f6f1;
+}
+
+/* ヘッダー */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0eadd;
+    border-bottom: 1px solid #e0dcd5;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #6c5e52;
+    margin: 0;
+}
+
+/* メインコンテンツ */
+.main-container {
+    /* padding: 40px 20px; */
+    text-align: center;
+}
+
+.main-container h2 {
+    font-size: 28px;
+    color: #6c5e52;
+    margin-bottom: 20px;
+}
+
+/* フォーム */
+.contact-form {
+    /* max-width: 600px; */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 14px;
+    color: #6c5e52;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #6c5e52;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #bbb;
+}
+
+.contact-form .name-fields input {
+    width: 39%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.contact-form .name-fields input:last-child {
+    margin-right: 0;
+}
+
+.contact-form .tel-fields input {
+    width: 25%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.contact-form .tel-fields input:last-child {
+    margin-right: 0;
+}
+
+/* 性別ラジオボタンの横並び */
+.gender-fields {
+    display: flex;
+    gap: 20px;
+    /* ラジオボタン同士の間隔を調整 */
+    align-items: center;
+}
+
+.gender-fields label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* ボタンとテキストの間隔を調整 */
+    font-size: 14px;
+    color: #6c5e52;
+    white-space: nowrap;
+    /* テキストの折り返しを防ぐ */
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form .required {
+    color: #d9534f;
+    font-size: 12px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #6c5e52;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #5a4d44;
+}

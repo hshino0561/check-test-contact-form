@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "dev": "vite", // 開発サーバーを起動。エイリアス: `vite dev`, `vite serve`
+        "build": "vite build", // プロダクション用にビルド
+        "preview": "vite preview" // プロダクション用ビルドをローカルでプレビュー
+    }
+}
